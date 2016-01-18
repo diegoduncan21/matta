@@ -50,6 +50,7 @@ def symlink_current_release():
             run('rm -f releases/previous')
             run('mv releases/current releases/previous')
             run('ln -s {release} releases/current'.format(**env))
+            run('cp releases/previous/.env releases/current/.env')
             run('chmod -R 775 releases/current')
 
 
