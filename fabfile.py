@@ -35,7 +35,8 @@ django.project('matta')
 @task
 def production():
     env.branch = 'master'
-    env.hosts = ['julianmatta.com']
+    # env.hosts = ['julianmatta.com']
+    env.hosts = ['104.131.91.80']
     env.release = time.strftime('%Y%m%d%H%M%S')
     env.settings = 'settings.production'
 
@@ -62,11 +63,7 @@ def clean():
 
 @task
 def deploy():
-    """Service can be:
-        * flyersconcierge [by default]
-        * affiliates
-    """
-    print yellow('>>> Deploying matta release {1} to {2}'.format(env.release,
+    print yellow('>>> Deploying matta release {0} to {1}'.format(env.release,
                                                                  ', '.join(env.hosts)))
 
     with cd(env.path):
@@ -90,7 +87,9 @@ def rollback():
 @task()
 def migrate():
     print yellow('>>> Updating database schema structure', True)
-    sudo('docker-compose run django python manage.py migrate')
+    with cd(env.path):
+        with cd('releases/current'):
+            sudo('docker-compose run django python manage.py migrate')
 
 
 @task()
@@ -99,10 +98,17 @@ def migrate_list():
 
 
 @task
-def start_supervisor(service="flyersconcierge"):
+def start_supervisor():
     sudo('supervisorctl start matta')
 
 
 @task
-def stop_supervisor(service="flyersconcierge"):
+def stop_supervisor():
     sudo('supervisorctl stop matta')
+
+
+@task
+def build():
+    with cd(env.path):
+        with cd('releases/current'):
+            sudo('docker-compose build')
