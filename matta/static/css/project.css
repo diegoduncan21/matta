@@ -36,3 +36,17 @@
 [hidden][style="display: block;"] {
   display: block !important;
 }
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:100);
+html { 
+  background:  url(images/matta-home.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+h1{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3em;
+  margin: .2em .5em;
+  color: rgba(0,0,0, 0.3);
+}
+body {
+    height: 100%;
+}
