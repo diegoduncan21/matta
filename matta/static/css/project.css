@@ -36,3 +36,62 @@
 [hidden][style="display: block;"] {
   display: block !important;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:100);
+html { 
+  background:  url(/static/images/matta-home.gif) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+h1{
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3em;
+  margin: .2em .5em;
+  color: rgba(0,0,0, 0.3);
+}
+body {
+    height: 100%;
+}
+@font-face{
+  font-family: swiss;
+  src:url(/static/fonts/Swiss721SWA.ttf); 
+}
+@font-face{
+  font-family: swissblack;
+  src:url(/static/fonts/Swiss721BlackExtended.ttf); 
+}
+#home{
+  position: absolute;
+  top: 390px;
+  left: 990px;
+  width: 509px;
+  font-family: swissblack;
+  font-size: 24px;
+  color: white;
+}
+.top{
+  position: absolute;
+  top:30px;
+  left: 22px;
+  font-family: swiss;
+  font-size: 11px;
+  font-weight: 800;
+  color: #fff;
+}
+.rig{
+  right: 22px;
+}
+.top.rig {
+  display: inline;
+  position: absolute;
+  top: 30px;
+  left: 80%;
+
+}
+.top.rig2 {
+  display: inline;
+  position: absolute;
+  top: 30px;
+  left: 65%;
+
+}
