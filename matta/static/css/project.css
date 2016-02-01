@@ -62,8 +62,8 @@ body {
 }
 #home{
   position: absolute;
-  top: 390px;
-  left: 710px;
+  top: 40%;
+  left: 51%;
   width: 509px;
   font-family: swissblack;
   font-size: 24px;
