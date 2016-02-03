@@ -1,14 +1,22 @@
 {% extends "base.html" %}
-
+<title>{% block title %}julian | Matta{% endblock title %}</title>
 {% block header %}
 {% endblock header %}
 
 {% block content %}
-    <h3 class="top">JULIÁN MATTA</h3>
-    <h1 id="home" class="glitch" data-text="LA REVOLUCIÓN DE DURLOCK">LA REVOLUCIÓN DE DURLOCK</h1>
-    <ul class="top rig">
-        <h3 class="top rig2">Obras</h3>
-        <h3 class="top rig">Acerca</h3>
-    </ul>
-	
+    <a href="/"><h3 class="top">JULIÁN MATTA</h3></a>
+    <div class="container">
+        <h1 id="home" class="glitch" data-text="LA REVOLUCIÓN DE DURLOCK">LA REVOLUCIÓN DE DURLOCK</h1>
+        <!--<div id="homa">
+            <ul>
+                <li>
+                    <a href="/revolucion"><h3 class="topa">Obras</h3></a>
+                </li>
+                <li>
+                    <a href="/about"><h3 class="topa">Acerca</h3></a>
+                </li>
+            </ul>
+        </div>-->
+    </div>
+    
 {% endblock content %}
