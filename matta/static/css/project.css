@@ -104,8 +104,11 @@ ul>li>a:hover{
   top:80%;
 }
 
-.col-md-3.mini{
-  top:22px;
+.mini{
+  position: absolute;
+  right:77%;
+  top:8px;
+  width: 421px;
 }
 
 #homa{
