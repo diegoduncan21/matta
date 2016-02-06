@@ -101,7 +101,11 @@ ul>li>a:hover{
 
 .col-md-3.pdf{
   position:absolute;
-  top:83%;
+  top:82%;
+}
+
+.col-md-3.mini{
+  top:22px;
 }
 
 #homa{
