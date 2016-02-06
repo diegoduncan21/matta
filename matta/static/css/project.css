@@ -158,7 +158,7 @@ h5.topa{
   font-family: swissblack;
 }
 .example-one {
-  font-size: 30px;
+  font-size: 18px;
   color: white;
   position: relative;
 }
@@ -296,11 +296,11 @@ h5.topa{
 
 
 .wrap {
-  width: 700px;
+  width: 400px;
   height: 300px;
   margin: 0 auto;
   text-align: left;
   position: absolute;
   top:50%;
-  left:43%;
+  left:18%;
 }
