@@ -1,11 +1,11 @@
 html { 
-    background:  url(/static/images/fondo_revolución_.JPG) no-repeat center center fixed; 
+    background:  url(/static/images/fondo_revolucion_.JPG) no-repeat center center fixed; 
     background-size: cover;
     min-height:100%
 }
 #music{
     position: absolute;
-    right: 34%;
+    right: 40%;
     top: 90%;
 }
 .containertodo{
@@ -16,7 +16,7 @@ html {
     width: 100%;
 }
 .containertotal{
-    width: 1366px;
+    width: 100%;
 }
 .containertexto{
     position: absolute;
