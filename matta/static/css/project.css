@@ -132,8 +132,8 @@ h5.topa{
   color:#000;
 }
 .top.rig{
-    right: 13px;
-    left: 94%;
+  right: 13px;
+  left: 94%;
 }
 .top.rig2 {
   display: inline;
@@ -141,6 +141,12 @@ h5.topa{
   top: 30px;
   left: 65%;
 
+}
+.videocontainer{
+  position: absolute;
+  top: 13%;
+  left: 62%;
+  
 }
 .down{
   width: 100%;
