@@ -302,5 +302,9 @@ h5.topa{
   text-align: left;
   position: absolute;
   top:50%;
-  left:18%;
+  right:18%;
+}
+div.example-one.glitch > a{
+  color:#fff;
+  text-decoration: none;
 }
