@@ -103,7 +103,9 @@ ul>li>a:hover{
   position:absolute;
   top:80%;
 }
-
+.col-md-9.col-md-offset-3 > h4{
+  font-size:16px;
+}
 .mini{
   position: absolute;
   right: 75%;
