@@ -131,8 +131,9 @@ h5.topa{
 .top.bl{
   color:#000;
 }
-.rig{
-  right: 22px;
+.top.rig{
+    right: 13px;
+    left: 94%;
 }
 .top.rig2 {
   display: inline;
