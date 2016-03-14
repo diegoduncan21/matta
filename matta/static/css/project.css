@@ -38,8 +38,8 @@
 }
 
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:100);
-html { 
-  background:  url(/static/images/matta-home.gif) no-repeat center center fixed; 
+html {
+  background:  url(/static/images/matta-home.gif) no-repeat center center fixed;
   background-size: cover;
   min-height:100%
 }
@@ -56,11 +56,11 @@ body {
 }
 @font-face{
   font-family: swiss;
-  src:url(/static/fonts/Swiss721SWA.ttf); 
+  src:url(/static/fonts/Swiss721SWA.ttf);
 }
 @font-face{
   font-family: swissblack;
-  src:url(/static/fonts/Swiss721BlackExtended.ttf); 
+  src:url(/static/fonts/Swiss721BlackExtended.ttf);
 }
 #home{
   position: absolute;
@@ -92,11 +92,11 @@ ul>li>a{
 }
 ul>li>a:hover{
   color:#fff;
-  text-decoration: none;  
+  text-decoration: none;
 }
 .col-md-3 > a{
   color:#fff;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .col-md-3.pdf{
@@ -141,12 +141,6 @@ h5.topa{
   top: 30px;
   left: 65%;
 
-}
-.videocontainer{
-  position: absolute;
-  top: 13%;
-  left: 62%;
-  
 }
 .down{
   width: 100%;

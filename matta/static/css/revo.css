@@ -4,14 +4,35 @@ html {
     min-height:100%
 }
 #music{
-    position: absolute;
-    right: 40%;
-    top: 90%;
+  position: relative;
+  float: right;
+  bottom: 36px;
 }
 .containertodo{
 }
+.videocontainer{
+  position: absolute;
+  top: 20%;
+  left: 70%;
+}
 .containertotal{
     width: 100%;
+}
+.footer_fly{
+  position:absolute;
+  top:90%;
+  left:13%;
+  color:#fff;
+  font-weight: 900;
+  font-family: courier;
+  font-size: 12px;
+}
+.footer_fly > a{
+  text-decoration: none;
+  color:inherit;
+}
+.orange{
+  color:#ff6600;
 }
 .containertexto{
     position: absolute;
